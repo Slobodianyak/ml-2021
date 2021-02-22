@@ -1,0 +1,19 @@
+Run cmd as admin
+
+Create virtual environment:
+virtualenv -p "C:\Pythons\Python38\python.exe" linear_regression
+
+Activate environment
+linear_regression\Scripts\activate.bat
+
+Upgrade PIP
+pip install --upgrade pip
+
+Install IPython kernel
+pip install --user ipykernel
+
+Register kernel with Jupyter
+python -m ipykernel install --name=linear_regression --display-name="Python 3.8 (Linear Regression)"
+>>Installed kernelspec linear_regression in C:\ProgramData\jupyter\kernels\linear_regression
+
+pip install -r "<Project path>\requirements.txt"
